@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+![image](https://imgs.xkcd.com/comics/nice_to_e_meet_you.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> This is what overthinking looks like. Welcome to my brain.
 
-## Available Scripts
 
-In the project directory, you can run:
+## henlo, I'm Aniket
+Elaborating more on my bio, I'm more than your average [geek](https://laughingsquid.com/nerd-venn-diagram-geek-dork-or-dweeb/) with a keen interest in community and tech.
 
-### `npm start`
+I've mostly done frontend dev during my Engineering run, but then have been helping with Community at Devfolio since 2020. This includes hosting hackathons, running fellowships, supplying grants, and supporting builders by making them economically independent and opening new gates for them. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+On the side, I play Valorant (Gold 3 hardstuck shushh). My other interests include:
+- eSports (SEN City)
+- Stoicisim (trying!)
+- Listening to OSTs (Hans Zimmer is a diamond)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=qcy92e5g0ul2lz5mhf172yefg&cover_image=true&theme=default&show_offline=true&background_color=000000&interchange=true&bar_color=53b14f&bar_color_cover=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=qcy92e5g0ul2lz5mhf172yefg&redirect=true)
 
-### `npm test`
+## Small and Big Wins at life 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> *Success is a series of smaller victories - Sir Quick Google Search, 2024*
 
-### `npm run build`
+ 
+### 🎡 Hosted the World's Biggest Ethereum Hackathon with frens
+↗️ [ETHIndia 2023](https://ethindia.co)
+↗️ [Projects at ETHIndia 2023](https://ethindia2023.devfolio.co/projects)
+![image](https://assets.devfolio.co/content/a1f504bee74b4f19be305d409aa4fc16/9108f8c9-867a-4def-8732-b0f6fb89b07d.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 💻 Completed the 100 Days of Code challenge in 2020
+↗️ [Instagram Page](https://instagram.com/spider31415)
+https://youtu.be/yYfbU2BBiAM
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🏆 Sentinels winning VCT Masters Madrid 2024
+↗️ [Relive the winning clip](https://www.youtube.com/live/wpDdRR-BqdU?si=4OORZuVEfCAERmVH&t=24521)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![image](https://assets.devfolio.co/content/a1f504bee74b4f19be305d409aa4fc16/16d14aae-6227-47ae-9292-c427205c5c3d.png)
