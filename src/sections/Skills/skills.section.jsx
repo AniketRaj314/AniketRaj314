@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from "react";
 import { SkillsData } from "../../data";
 import ListItem from "../../components/ListItem/listitem.component";

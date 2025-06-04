@@ -1,3 +1,4 @@
+'use client';
 import React from "react";
 import { InternshipData } from "../../data";
 import AnimatedCard from "../../components/AnimatedCard/animatedcard.component";

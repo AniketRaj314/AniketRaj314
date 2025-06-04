@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useEffect } from "react";
 import { AiFillGithub, AiOutlineInstagram, AiOutlineTwitter, AiOutlineMail } from "react-icons/ai";
 import { FaTelegramPlane, FaReact } from "react-icons/fa";
