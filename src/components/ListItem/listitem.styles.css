@@ -1,0 +1,39 @@
+.skill-logo {
+    height: 40px;
+    align-self: center;
+    margin-left: 4px;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 4px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.skill-description {
+    margin: 0px 12px;
+}
+
+.skill-description p {
+    font-size: 10px;
+    margin-top: -8px;
+}
+
+@media only screen and (min-width: 768px) {
+    .skill-logo {
+        height: 60px;
+        margin-left: 8px;
+    }
+
+    .skill-description {
+        margin: 0px 24px;
+    }
+
+    .skill-description p {
+        font-size: 14px;
+    }
+}
