@@ -119,7 +119,7 @@ export default function Footer() {
 						<FaTelegramPlane className="icon" />
 					</motion.a>
 					<motion.a
-						href="mailto:aniketronaldo10@gmail.com"
+						href="mailto:hello@aniketraj.me"
 						rel="noreferrer"
 						target="_blank"
 						custom={4}
