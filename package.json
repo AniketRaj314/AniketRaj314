@@ -19,10 +19,7 @@
     "lint": "next lint"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "next"
   },
   "browserslist": {
     "production": [

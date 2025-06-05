@@ -1,16 +1,12 @@
 import { getBraindumpBySlug, getBraindumpSlugs } from '../../../lib/mdx'
 import BraindumpContent from './BraindumpContent'
 
-type Props = {
-  params: { slug: string }
-}
-
 export async function generateStaticParams() {
   const slugs = await getBraindumpSlugs()
   return slugs.map((slug) => ({ slug }))
 }
 
-export default async function BraindumpPost({ params }: Props) {
+export default async function BraindumpPost({ params }: { params: { slug: string } }) {
   const { meta, content } = await getBraindumpBySlug(params.slug)
 
   return (
