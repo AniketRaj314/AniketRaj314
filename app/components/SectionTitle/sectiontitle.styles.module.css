@@ -1,0 +1,14 @@
+.title {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.icon {
+    /* Add any icon-specific styles here if needed */
+}

@@ -1,0 +1,21 @@
+.footer {
+    width: 100%;
+    height: 100px;
+}
+
+.footer p {
+    color: white;
+    font-family: "Fira Code", monospace;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    padding: 0px 12px;
+}
