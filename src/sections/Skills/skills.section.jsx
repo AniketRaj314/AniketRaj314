@@ -21,7 +21,7 @@ export default function Skills() {
                         exit={{ opacity: 0, y: -16 }}
                     >
                         {SkillsData.map((item, index) => (
-                            <div className="skill-parent-item">
+                            <div className="skill-parent-item" key={index}>
                                 <ListItem {...item} key={index} />
                             </div>
                         ))}
