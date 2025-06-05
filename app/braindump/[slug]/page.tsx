@@ -6,7 +6,7 @@ export async function generateStaticParams() {
   return slugs.map((slug) => ({ slug }))
 }
 
-export default async function BraindumpPost({ params }: { params: { slug: string } }) {
+export default async function Page({ params }: { params: { slug: string } }) {
   const { meta, content } = await getBraindumpBySlug(params.slug)
 
   return (
