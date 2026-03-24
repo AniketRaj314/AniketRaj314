@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import styles from "./listitem.styles.module.css";
+import Image from "next/image";
 
 const imageVariants = {
     hidden: {
@@ -33,18 +34,18 @@ export default function ListItem(props) {
         <div className={styles["skill-item"]}>
             {Array.isArray(logo) ? (
                 <AnimatePresence>
-                    <motion.img
-                        src={logo[logoIndex]}
-                        initial="hidden"
-                        animate="visible"
-                        exit="hidden"
-                        variants={imageVariants}
-                        className={styles["skill-logo"]}
-                        alt={skill}
-                    />
+                    <motion.div initial="hidden" animate="visible" exit="hidden" variants={imageVariants}>
+                        <Image
+                            src={logo[logoIndex]}
+                            className={styles["skill-logo"]}
+                            alt={skill}
+                            width={60}
+                            height={60}
+                        />
+                    </motion.div>
                 </AnimatePresence>
             ) : (
-                <img src={logo} className={styles["skill-logo"]} alt={skill} />
+                <Image src={logo} className={styles["skill-logo"]} alt={skill} width={60} height={60} />
             )}
             <div className={styles["skill-description"]}>
                 <h2>{skill}</h2>

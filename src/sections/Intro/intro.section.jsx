@@ -67,7 +67,7 @@ export default function Intro() {
                     transition={{ delay: 1 }}
                     style={{ fontSize: "16px" }}
                 >
-                    I'm more than your average geek with a keen interest in community and tech.
+                    I&apos;m more than your average geek with a keen interest in community and tech.
                 </motion.p>
             </div>
         </div>

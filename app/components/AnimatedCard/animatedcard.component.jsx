@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import styles from "./animatedcard.styles.module.css";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import Image from "next/image";
 
 export default function AnimatedCard(props) {
     const {
@@ -58,7 +59,7 @@ export default function AnimatedCard(props) {
             >
                 <div className={styles["internship-company"]}>
                     <a href={website} target="_blank" rel="noreferrer">
-                        <img src={logoSrc} alt={name} />
+                        <Image src={logoSrc} alt={name} width={140} height={35} />
                     </a>
                 </div>
                 <hr />
@@ -92,7 +93,7 @@ export default function AnimatedCard(props) {
                 onHoverEnd={() => setRotation(0)}
             >
                 <a href={website} target="_blank" rel="noreferrer">
-                    <img src={previewLogoSrc} alt={name} />
+                    <Image src={previewLogoSrc} alt={name} width={100} height={100} />
                 </a>
             </motion.div>
         </div>

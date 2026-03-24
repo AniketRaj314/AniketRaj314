@@ -30,6 +30,7 @@ export default function Projects() {
                             <div className="row">
                                 {ProjectData.map((item, index) => (
                                     <ProjectMiniView
+                                        key={item.project_name}
                                         {...item}
                                         setIdOnClick={() => setSelectedId(index + 1)}
                                         index={index}
@@ -59,6 +60,7 @@ export default function Projects() {
                                                     <h2 style={{ fontSize: "110%", margin: "0" }}>Links</h2>
                                                     {ProjectData[selectedId - 1].links.map((url) => (
                                                         <IconByUrl
+                                                            key={url}
                                                             url={url}
                                                             className="icon"
                                                             style={{ color: "black" }}
