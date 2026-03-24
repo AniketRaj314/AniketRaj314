@@ -41,6 +41,33 @@ a {
     justify-content: space-between;
 }
 
+.site-update-banner {
+    width: 100%;
+    background: linear-gradient(90deg, #19233f 0%, #243b72 100%);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+    padding: 10px 16px;
+    box-sizing: border-box;
+}
+
+.site-update-banner p {
+    margin: 0;
+    text-align: center;
+    color: #f5f8ff;
+    font-size: 13px;
+    letter-spacing: 0.1px;
+}
+
+.site-update-banner__link {
+    color: #8dd7ff;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.site-update-banner__link:hover {
+    color: #c2ebff;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -50,6 +77,14 @@ a {
 }
 
 @media only screen and (min-width: 768px) {
+    .site-update-banner {
+        padding: 12px 24px;
+    }
+
+    .site-update-banner p {
+        font-size: 14px;
+    }
+
     .container {
         padding: 32px;
     }

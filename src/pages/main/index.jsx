@@ -17,6 +17,19 @@ class Main extends React.Component {
     render() {
         return (
             <div className="flexbox">
+                <div className="site-update-banner" role="status" aria-live="polite">
+                    <p>
+                        This website is deprecated. The latest version is live here:{" "}
+                        <a
+                            href="https://aniketraj.me"
+                            target="_blank"
+                            rel="noreferrer noopener"
+                            className="site-update-banner__link"
+                        >
+                            aniketraj.me
+                        </a>
+                    </p>
+                </div>
                 <div className="container">
                     <Background imagePath={"/images/background.jpg"} />
                     <Intro />
